@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PKL Hanief Kasmiranda</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:linear-gradient(135deg,#0ea5e9,#2563eb);
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#111827;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.timeline{
+    border-left:3px solid #38bdf8;
+    padding-left:20px;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#38bdf8;
+    color:black;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>PKL Hanief Kasmiranda</h1>
+    <p>Teknik Jaringan Komputer dan Telekomunikasi</p>
+    <a href="#tentang" class="btn">Lihat Profil</a>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#perusahaan">Perusahaan</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="tentang">
+    <h2>Tentang Saya</h2>
+    <div class="card">
+        <p>
+            Halo! Saya <b>Hanief Kasmiranda</b>, siswa jurusan
+            <b>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</b>.
+            Website ini dibuat sebagai dokumentasi kegiatan Praktik Kerja Lapangan (PKL).
+        </p>
+    </div>
+</section>
+
+<section id="perusahaan">
+    <h2>Tempat PKL</h2>
+    <div class="card">
+        <h3>Nama Perusahaan</h3>
+        <p>PT. Contoh Teknologi Indonesia</p>
+
+        <br>
+
+        <h3>Alamat</h3>
+        <p>Jl. Teknologi No. 123, Indonesia</p>
+
+        <br>
+
+        <h3>Bidang Usaha</h3>
+        <p>Jaringan Komputer, Telekomunikasi, dan IT Support.</p>
+    </div>
+</section>
+
+<section id="kegiatan">
+    <h2>Kegiatan PKL</h2>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>Minggu 1</h3>
+            <p>Pengenalan lingkungan kerja dan aturan perusahaan.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Minggu 2</h3>
+            <p>Instalasi sistem operasi dan konfigurasi perangkat komputer.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Minggu 3</h3>
+            <p>Konfigurasi jaringan LAN dan troubleshooting jaringan.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Minggu 4</h3>
+            <p>Pemeliharaan server dan dokumentasi kegiatan.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeri">
+    <h2>Galeri PKL</h2>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/400/300?1">
+        <img src="https://picsum.photos/400/300?2">
+        <img src="https://picsum.photos/400/300?3">
+        <img src="https://picsum.photos/400/300?4">
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak</h2>
+
+    <div class="card">
+        <p><b>Nama:</b> Hanief Kasmiranda</p>
+        <p><b>Jurusan:</b> TJKT</p>
+        <p><b>Email:</b> hanief@email.com</p>
+        <p><b>Instagram:</b> @hanief</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PKL Hanief Kasmiranda | TJKT</p>
+</footer>
+
+</body>
+</html>
